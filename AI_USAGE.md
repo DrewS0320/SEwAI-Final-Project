@@ -54,7 +54,7 @@ AI-generated text or code may contain mistakes, make incorrect assumptions, or f
 5. Measuring test coverage with the project's coverage tool rather than assuming a target was reached.
 6. Using teammate review for pull requests where required.
 
-The team remains responsible for the final code, testing evidence, design decisions, and submission. The steps above describe the intended validation process and should not be read as claims that every check has already been completed.
+The team remains responsible for the final code, testing evidence, design decisions, and submission.
 
 ## Additional AI Tool Considered (Not Yet Used)
 
