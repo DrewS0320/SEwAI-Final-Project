@@ -30,8 +30,6 @@ We use GitHub Copilot as an AI programming assistant in Visual Studio Code. Its 
 - Helping explain code and offering possible improvements.
 - Supporting debugging, refactoring, and the development of tests when requested.
 
-**Note:** We should retain only the activities above that reflect our actual Copilot usage. We do not intend to imply that we have used every available feature.
-
 ## Representative AI-Assisted Tasks
 
 The following are examples of the types of questions and tasks for which AI assistance has been useful. They are paraphrases, not a verbatim prompt transcript.
