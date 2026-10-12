@@ -6,3 +6,5 @@ A web application that evaluates Mario Kart 8 Deluxe races from gameplay videos.
 
 ## Current Status
 **For reviewers:** The code to evaluate for this milestone is 'PerformanceService.cs' and its tests. Other files are placeholders for planned features. 
+
+See [AI_USAGE.md](AI_USAGE.md) for how we used AI tools in this project.
