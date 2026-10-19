@@ -1,63 +1,67 @@
+
 using System;
 
 namespace MarioKartAnalyzer.Services
 {
+    public enum RaceMode
+    {
+        OnlineMultiplayer,
+        TimeTrial
+    }
+
     public class PerformanceService
     {
-        // ============================================================
-        // WEIGHTS
+        // ==========================================
+        // ONLINE MULTIPLAYER WEIGHTS
         // All weights should add up to 1.00 (100%)
-        // ============================================================
+        // ==========================================
 
-        private const double RaceResultWeight = 0.15;
-        private const double RouteWeight = 0.40;
-        private const double ItemUsageWeight = 0.25;
-        private const double CoinWeight = 0.20;
+        public double OnlineRaceWeight { get; set; } = 0.10;
+        public double OnlineRouteWeight { get; set; } = 0.25;
+        public double OnlineItemWeight { get; set; } = 0.20;
+        public double OnlineCoinWeight { get; set; } = 0.15;
+        public double OnlineDriftWeight { get; set; } = 0.20;
+        public double OnlineLapWeight { get; set; } = 0.05;
+        public double OnlineBuildWeight { get; set; } = 0.05;
 
 
-        // ============================================================
-        // OVERALL PERFORMANCE SCORE
-        // Combines all category scores into one score from 0-100.
-        // ============================================================
+        // ==========================================
+        // TIME TRIAL WEIGHTS
+        // All weights should add up to 1.00 (100%)
+        // ==========================================
 
-        public int CalculatePerformanceScore(
-            int finishingPosition,
-            double routeAccuracy,
-            double itemUsageScore,
-            double coinScore)
+        public double TrialRouteWeight { get; set; } = 0.25;
+        public double TrialMushroomWeight { get; set; } = 0.05;
+        public double TrialCoinWeight { get; set; } = 0.15;
+        public double TrialDriftWeight { get; set; } = 0.20;
+        public double TrialLapWeight { get; set; } = 0.30;
+        public double TrialBuildWeight { get; set; } = 0.05;
+
+
+        // ==========================================
+        // SCORE LIMITER
+        // Keeps scores between 0 and 100
+        // ==========================================
+
+        private static double LimitScore(double value)
         {
-            double raceResultScore = CalculateRaceResultScore(finishingPosition);
-            double routeScore = CalculateRouteScore(routeAccuracy);
-            double itemScore = CalculateItemUsageScore(itemUsageScore);
-            double calculatedCoinScore = CalculateCoinScore(coinScore);
-
-            double overallScore =
-                (raceResultScore * RaceResultWeight) +
-                (routeScore * RouteWeight) +
-                (itemScore * ItemUsageWeight) +
-                (calculatedCoinScore * CoinWeight);
-
-            return (int)Math.Round(Math.Clamp(overallScore, 0, 100));
+            return Math.Clamp(value, 0, 100);
         }
 
 
-        // ============================================================
-        // RACE RESULT SCORE
-        // Grades the player's finishing position.
-        // ============================================================
+        // ==========================================
+        // RACE RESULT - ONLINE MULTIPLAYER ONLY
+        // ==========================================
 
-        public double CalculateRaceResultScore(int finishingPosition)
+        public double CalculateRaceResultScore(
+            int finishingPosition)
         {
-            // Temporary scoring system.
-            // We can adjust this later based on race type,
-            // number of racers, 150cc vs 200cc, etc.
-
-            if (finishingPosition < 1 || finishingPosition > 12)
+            if (finishingPosition < 1 ||
+                finishingPosition > 12)
             {
                 throw new ArgumentOutOfRangeException(
                     nameof(finishingPosition),
-                    "Finishing position must be between 1 and 12."
-                );
+                    "Finishing position must be between 1 and 12.");
             }
 
             return finishingPosition switch
@@ -79,78 +83,210 @@ namespace MarioKartAnalyzer.Services
         }
 
 
-        // ============================================================
-        // ROUTE SCORE
-        // Measures how closely the player follows an optimal route.
-        // ============================================================
+        // ==========================================
+        // ROUTE EFFICIENCY - BOTH MODES
+        // ==========================================
 
-        public double CalculateRouteScore(double routeAccuracy)
+        public double CalculateRouteScore(
+            double racingLineAccuracy,
+            double shortcutEfficiency,
+            double offRoadAvoidance)
         {
-            // For now, routeAccuracy is already a percentage from 0-100.
+            double score =
+                LimitScore(racingLineAccuracy) * 0.55 +
+                LimitScore(shortcutEfficiency) * 0.25 +
+                LimitScore(offRoadAvoidance) * 0.20;
+
+            return LimitScore(score);
+        }
+
+
+        // ==========================================
+        // ITEM USAGE - ONLINE MULTIPLAYER ONLY
+        // ==========================================
+
+        public double CalculateOnlineItemScore(
+            double offensiveUsage,
+            double defensiveUsage,
+            double strategicUsage,
+            double itemAvoidance)
+        {
+            double score =
+                LimitScore(offensiveUsage) * 0.25 +
+                LimitScore(defensiveUsage) * 0.25 +
+                LimitScore(strategicUsage) * 0.20 +
+                LimitScore(itemAvoidance) * 0.30;
+
+            return LimitScore(score);
+        }
+
+
+        // ==========================================
+        // MUSHROOM USAGE - TIME TRIAL ONLY
+        // ==========================================
+
+        public double CalculateMushroomScore(
+            double shortcutEffectiveness,
+            double timingEfficiency)
+        {
+            double score =
+                LimitScore(shortcutEffectiveness) * 0.70 +
+                LimitScore(timingEfficiency) * 0.30;
+
+            return LimitScore(score);
+        }
+
+
+        // ==========================================
+        // COIN MANAGEMENT - BOTH MODES
+        // ==========================================
+
+        public double CalculateCoinScore(
+            double averageCoins)
+        {
+            // Average coins held throughout the race.
+            // Expected range: 0 to 10.
             //
             // Example:
-            // 95 = player followed optimal route 95% of the time.
+            // Average coins = 9
+            // Coin score = 90/100
             //
-            // Future calculations could consider:
-            // - Time spent in suboptimal course areas
-            // - Racing line accuracy
-            // - Shortcut usage
-            // - Off-road driving
-            // - Falls from the course
+            // Coin losses naturally reduce the average.
 
-            return Math.Clamp(routeAccuracy, 0, 100);
+            double coinScore =
+                Math.Clamp(averageCoins, 0, 10) * 10;
+
+            return LimitScore(coinScore);
         }
 
 
-        // ============================================================
-        // ITEM USAGE SCORE
-        // Measures how effectively the player uses items.
-        // ============================================================
+        // ==========================================
+        // DRIFT EFFICIENCY - BOTH MODES
+        // ==========================================
 
-        public double CalculateItemUsageScore(double itemUsageScore)
+        public double CalculateDriftScore(
+            double successfulDriftPercentage,
+            double miniTurboEfficiency)
         {
-            // For now, itemUsageScore is supplied as a 0-100 score.
-            //
-            // Eventually this function can calculate the score using:
-            //
-            // - Green shell accuracy
-            // - Banana hits
-            // - Fireball hits
-            // - Defensive item usage
-            // - Mushroom shortcut usage
-            // - Blue shell dodging
-            // - Super horn management
-            // - Coin/item box management
-            // - Strategic item holding
+            double score =
+                LimitScore(successfulDriftPercentage) * 0.60 +
+                LimitScore(miniTurboEfficiency) * 0.40;
 
-            return Math.Clamp(itemUsageScore, 0, 100);
+            return LimitScore(score);
         }
 
 
-        // ============================================================
-        // COIN MANAGEMENT SCORE
-        // Measures how effectively the player maintains coins.
-        // ============================================================
+        // ==========================================
+        // LAP CONSISTENCY - BOTH MODES
+        // ==========================================
 
-        public double CalculateCoinScore(double coinScore)
+        public double CalculateLapConsistencyScore(
+            double lap1,
+            double lap2,
+            double lap3)
         {
-            // For now, coinScore is supplied as a 0-100 score.
-            //
-            // Eventually this could be calculated using:
-            //
-            // - Average coins held during race
-            // - Percentage of race spent at 10 coins
-            // - Speed of recovering coins after being hit
-            // - Avoiding unnecessary coin loss
+            if (lap1 <= 0 || lap2 <= 0 || lap3 <= 0)
+            {
+                throw new ArgumentOutOfRangeException(
+                    nameof(lap1),
+                    "All lap times must be positive.");
+            }
 
-            return Math.Clamp(coinScore, 0, 100);
+            double average =
+                (lap1 + lap2 + lap3) / 3.0;
+
+            double fastest =
+                Math.Min(lap1, Math.Min(lap2, lap3));
+
+            double slowest =
+                Math.Max(lap1, Math.Max(lap2, lap3));
+
+            double differencePercentage =
+                ((slowest - fastest) / average) * 100;
+
+            // Provisional penalty multiplier.
+            double score =
+                100 - differencePercentage * 5;
+
+            return LimitScore(score);
         }
 
 
-        // ============================================================
+        // ==========================================
+        // KART BUILD - BOTH MODES
+        // ==========================================
+
+        public double CalculateBuildScore(
+            double speed,
+            double acceleration,
+            double handling,
+            double traction)
+        {
+            double score =
+                LimitScore(speed) * 0.30 +
+                LimitScore(acceleration) * 0.30 +
+                LimitScore(handling) * 0.25 +
+                LimitScore(traction) * 0.15;
+
+            return LimitScore(score);
+        }
+
+
+        // ==========================================
+        // ONLINE MULTIPLAYER OVERALL SCORE
+        // ==========================================
+
+        public int CalculateOnlineMultiplayerScore(
+            double raceScore,
+            double routeScore,
+            double itemScore,
+            double coinScore,
+            double driftScore,
+            double lapScore,
+            double buildScore)
+        {
+            double total =
+                LimitScore(raceScore) * OnlineRaceWeight +
+                LimitScore(routeScore) * OnlineRouteWeight +
+                LimitScore(itemScore) * OnlineItemWeight +
+                LimitScore(coinScore) * OnlineCoinWeight +
+                LimitScore(driftScore) * OnlineDriftWeight +
+                LimitScore(lapScore) * OnlineLapWeight +
+                LimitScore(buildScore) * OnlineBuildWeight;
+
+            return (int)Math.Round(
+                LimitScore(total));
+        }
+
+
+        // ==========================================
+        // TIME TRIAL OVERALL SCORE
+        // ==========================================
+
+        public int CalculateTimeTrialOverallScore(
+            double routeScore,
+            double mushroomScore,
+            double coinScore,
+            double driftScore,
+            double lapScore,
+            double buildScore)
+        {
+            double total =
+                LimitScore(routeScore) * TrialRouteWeight +
+                LimitScore(mushroomScore) * TrialMushroomWeight +
+                LimitScore(coinScore) * TrialCoinWeight +
+                LimitScore(driftScore) * TrialDriftWeight +
+                LimitScore(lapScore) * TrialLapWeight +
+                LimitScore(buildScore) * TrialBuildWeight;
+
+            return (int)Math.Round(
+                LimitScore(total));
+        }
+
+
+        // ==========================================
         // PERFORMANCE CLASSIFICATION
-        // Gives the numerical score a readable classification.
-        // ============================================================
+        // ==========================================
 
         public string ClassifyPerformance(int score)
         {
@@ -171,42 +307,5 @@ namespace MarioKartAnalyzer.Services
 
             return "Poor";
         }
-
-
-        // ============================================================
-        // FUTURE SCORING FUNCTIONS
-        // These are planned features and can be implemented later.
-        // ============================================================
-
-        /*
-        public double CalculateDriftScore(...)
-        {
-            // Drift accuracy
-            // Mini-turbo efficiency
-            // Drift timing
-            return 0;
-        }
-
-
-        public double CalculateLapConsistencyScore(...)
-        {
-            // Compare lap times on loop tracks.
-            return 0;
-        }
-
-
-        public double CalculateBuildScore(...)
-        {
-            // Character + kart combination optimization.
-            return 0;
-        }
-
-
-        public double CalculateTimeTrialScore(...)
-        {
-            // Compare time against known benchmark times.
-            return 0;
-        }
-        */
     }
 }
