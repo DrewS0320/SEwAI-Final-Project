@@ -23,3 +23,7 @@ debug/
 
 # Temporary files
 *.log
+
+# .NET build output
+**/bin/
+**/obj/

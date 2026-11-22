@@ -1,0 +1,1159 @@
+{
+  "schema_version": "1.0",
+  "game": "Mario Kart 8 Deluxe",
+  "course_count": 96,
+  "tracks": [
+    {
+      "id": "mario_kart_stadium",
+      "name": "Mario Kart Stadium",
+      "cup": "Mushroom",
+      "cup_position": 1,
+      "course_position": 1,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "water_park",
+      "name": "Water Park",
+      "cup": "Mushroom",
+      "cup_position": 2,
+      "course_position": 2,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "sweet_sweet_canyon",
+      "name": "Sweet Sweet Canyon",
+      "cup": "Mushroom",
+      "cup_position": 3,
+      "course_position": 3,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "thwomp_ruins",
+      "name": "Thwomp Ruins",
+      "cup": "Mushroom",
+      "cup_position": 4,
+      "course_position": 4,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "mario_circuit",
+      "name": "Mario Circuit",
+      "cup": "Flower",
+      "cup_position": 1,
+      "course_position": 5,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "toad_harbor",
+      "name": "Toad Harbor",
+      "cup": "Flower",
+      "cup_position": 2,
+      "course_position": 6,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "twisted_mansion",
+      "name": "Twisted Mansion",
+      "cup": "Flower",
+      "cup_position": 3,
+      "course_position": 7,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "shy_guy_falls",
+      "name": "Shy Guy Falls",
+      "cup": "Flower",
+      "cup_position": 4,
+      "course_position": 8,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "sunshine_airport",
+      "name": "Sunshine Airport",
+      "cup": "Star",
+      "cup_position": 1,
+      "course_position": 9,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "dolphin_shoals",
+      "name": "Dolphin Shoals",
+      "cup": "Star",
+      "cup_position": 2,
+      "course_position": 10,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "electrodrome",
+      "name": "Electrodrome",
+      "cup": "Star",
+      "cup_position": 3,
+      "course_position": 11,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "mount_wario",
+      "name": "Mount Wario",
+      "cup": "Star",
+      "cup_position": 4,
+      "course_position": 12,
+      "dlc": false,
+      "timing_segments": {
+        "type": "sections",
+        "count": 3
+      }
+    },
+    {
+      "id": "cloudtop_cruise",
+      "name": "Cloudtop Cruise",
+      "cup": "Special",
+      "cup_position": 1,
+      "course_position": 13,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "bone_dry_dunes",
+      "name": "Bone-Dry Dunes",
+      "cup": "Special",
+      "cup_position": 2,
+      "course_position": 14,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "bowser_s_castle",
+      "name": "Bowser's Castle",
+      "cup": "Special",
+      "cup_position": 3,
+      "course_position": 15,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "rainbow_road",
+      "name": "Rainbow Road",
+      "cup": "Special",
+      "cup_position": 4,
+      "course_position": 16,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wii_moo_moo_meadows",
+      "name": "Wii Moo Moo Meadows",
+      "cup": "Shell",
+      "cup_position": 1,
+      "course_position": 17,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gba_mario_circuit",
+      "name": "GBA Mario Circuit",
+      "cup": "Shell",
+      "cup_position": 2,
+      "course_position": 18,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "ds_cheep_cheep_beach",
+      "name": "DS Cheep Cheep Beach",
+      "cup": "Shell",
+      "cup_position": 3,
+      "course_position": 19,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "n64_toad_s_turnpike",
+      "name": "N64 Toad's Turnpike",
+      "cup": "Shell",
+      "cup_position": 4,
+      "course_position": 20,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gcn_dry_dry_desert",
+      "name": "GCN Dry Dry Desert",
+      "cup": "Banana",
+      "cup_position": 1,
+      "course_position": 21,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "snes_donut_plains_3",
+      "name": "SNES Donut Plains 3",
+      "cup": "Banana",
+      "cup_position": 2,
+      "course_position": 22,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "n64_royal_raceway",
+      "name": "N64 Royal Raceway",
+      "cup": "Banana",
+      "cup_position": 3,
+      "course_position": 23,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "3ds_dk_jungle",
+      "name": "3DS DK Jungle",
+      "cup": "Banana",
+      "cup_position": 4,
+      "course_position": 24,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "ds_wario_stadium",
+      "name": "DS Wario Stadium",
+      "cup": "Leaf",
+      "cup_position": 1,
+      "course_position": 25,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gcn_sherbet_land",
+      "name": "GCN Sherbet Land",
+      "cup": "Leaf",
+      "cup_position": 2,
+      "course_position": 26,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "3ds_music_park",
+      "name": "3DS Music Park",
+      "cup": "Leaf",
+      "cup_position": 3,
+      "course_position": 27,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "n64_yoshi_valley",
+      "name": "N64 Yoshi Valley",
+      "cup": "Leaf",
+      "cup_position": 4,
+      "course_position": 28,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "ds_tick_tock_clock",
+      "name": "DS Tick-Tock Clock",
+      "cup": "Lightning",
+      "cup_position": 1,
+      "course_position": 29,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "3ds_piranha_plant_slide",
+      "name": "3DS Piranha Plant Slide",
+      "cup": "Lightning",
+      "cup_position": 2,
+      "course_position": 30,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wii_grumble_volcano",
+      "name": "Wii Grumble Volcano",
+      "cup": "Lightning",
+      "cup_position": 3,
+      "course_position": 31,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "n64_rainbow_road",
+      "name": "N64 Rainbow Road",
+      "cup": "Lightning",
+      "cup_position": 4,
+      "course_position": 32,
+      "dlc": false,
+      "timing_segments": {
+        "type": "sections",
+        "count": 3
+      }
+    },
+    {
+      "id": "gcn_yoshi_circuit",
+      "name": "GCN Yoshi Circuit",
+      "cup": "Egg",
+      "cup_position": 1,
+      "course_position": 33,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "excitebike_arena",
+      "name": "Excitebike Arena",
+      "cup": "Egg",
+      "cup_position": 2,
+      "course_position": 34,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "dragon_driftway",
+      "name": "Dragon Driftway",
+      "cup": "Egg",
+      "cup_position": 3,
+      "course_position": 35,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "mute_city",
+      "name": "Mute City",
+      "cup": "Egg",
+      "cup_position": 4,
+      "course_position": 36,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wii_wario_s_gold_mine",
+      "name": "Wii Wario's Gold Mine",
+      "cup": "Triforce",
+      "cup_position": 1,
+      "course_position": 37,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "snes_rainbow_road",
+      "name": "SNES Rainbow Road",
+      "cup": "Triforce",
+      "cup_position": 2,
+      "course_position": 38,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "ice_ice_outpost",
+      "name": "Ice Ice Outpost",
+      "cup": "Triforce",
+      "cup_position": 3,
+      "course_position": 39,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "hyrule_circuit",
+      "name": "Hyrule Circuit",
+      "cup": "Triforce",
+      "cup_position": 4,
+      "course_position": 40,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gcn_baby_park",
+      "name": "GCN Baby Park",
+      "cup": "Crossing",
+      "cup_position": 1,
+      "course_position": 41,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 7
+      }
+    },
+    {
+      "id": "gba_cheese_land",
+      "name": "GBA Cheese Land",
+      "cup": "Crossing",
+      "cup_position": 2,
+      "course_position": 42,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wild_woods",
+      "name": "Wild Woods",
+      "cup": "Crossing",
+      "cup_position": 3,
+      "course_position": 43,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "animal_crossing",
+      "name": "Animal Crossing",
+      "cup": "Crossing",
+      "cup_position": 4,
+      "course_position": 44,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "3ds_neo_bowser_city",
+      "name": "3DS Neo Bowser City",
+      "cup": "Bell",
+      "cup_position": 1,
+      "course_position": 45,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gba_ribbon_road",
+      "name": "GBA Ribbon Road",
+      "cup": "Bell",
+      "cup_position": 2,
+      "course_position": 46,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "super_bell_subway",
+      "name": "Super Bell Subway",
+      "cup": "Bell",
+      "cup_position": 3,
+      "course_position": 47,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "big_blue",
+      "name": "Big Blue",
+      "cup": "Bell",
+      "cup_position": 4,
+      "course_position": 48,
+      "dlc": false,
+      "timing_segments": {
+        "type": "sections",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_paris_promenade",
+      "name": "Tour Paris Promenade",
+      "cup": "Golden Dash",
+      "cup_position": 1,
+      "course_position": 49,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "3ds_toad_circuit",
+      "name": "3DS Toad Circuit",
+      "cup": "Golden Dash",
+      "cup_position": 2,
+      "course_position": 50,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "n64_choco_mountain",
+      "name": "N64 Choco Mountain",
+      "cup": "Golden Dash",
+      "cup_position": 3,
+      "course_position": 51,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wii_coconut_mall",
+      "name": "Wii Coconut Mall",
+      "cup": "Golden Dash",
+      "cup_position": 4,
+      "course_position": 52,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_tokyo_blur",
+      "name": "Tour Tokyo Blur",
+      "cup": "Lucky Cat",
+      "cup_position": 1,
+      "course_position": 53,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "ds_shroom_ridge",
+      "name": "DS Shroom Ridge",
+      "cup": "Lucky Cat",
+      "cup_position": 2,
+      "course_position": 54,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gba_sky_garden",
+      "name": "GBA Sky Garden",
+      "cup": "Lucky Cat",
+      "cup_position": 3,
+      "course_position": 55,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_ninja_hideaway",
+      "name": "Tour Ninja Hideaway",
+      "cup": "Lucky Cat",
+      "cup_position": 4,
+      "course_position": 56,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_new_york_minute",
+      "name": "Tour New York Minute",
+      "cup": "Turnip",
+      "cup_position": 1,
+      "course_position": 57,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "snes_mario_circuit_3",
+      "name": "SNES Mario Circuit 3",
+      "cup": "Turnip",
+      "cup_position": 2,
+      "course_position": 58,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "n64_kalimari_desert",
+      "name": "N64 Kalimari Desert",
+      "cup": "Turnip",
+      "cup_position": 3,
+      "course_position": 59,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "ds_waluigi_pinball",
+      "name": "DS Waluigi Pinball",
+      "cup": "Turnip",
+      "cup_position": 4,
+      "course_position": 60,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_sydney_sprint",
+      "name": "Tour Sydney Sprint",
+      "cup": "Propeller",
+      "cup_position": 1,
+      "course_position": 61,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gba_snow_land",
+      "name": "GBA Snow Land",
+      "cup": "Propeller",
+      "cup_position": 2,
+      "course_position": 62,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wii_mushroom_gorge",
+      "name": "Wii Mushroom Gorge",
+      "cup": "Propeller",
+      "cup_position": 3,
+      "course_position": 63,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "sky_high_sundae",
+      "name": "Sky-High Sundae",
+      "cup": "Propeller",
+      "cup_position": 4,
+      "course_position": 64,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_london_loop",
+      "name": "Tour London Loop",
+      "cup": "Rock",
+      "cup_position": 1,
+      "course_position": 65,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gba_boo_lake",
+      "name": "GBA Boo Lake",
+      "cup": "Rock",
+      "cup_position": 2,
+      "course_position": 66,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "3ds_rock_rock_mountain",
+      "name": "3DS Rock Rock Mountain",
+      "cup": "Rock",
+      "cup_position": 3,
+      "course_position": 67,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wii_maple_treeway",
+      "name": "Wii Maple Treeway",
+      "cup": "Rock",
+      "cup_position": 4,
+      "course_position": 68,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_berlin_byways",
+      "name": "Tour Berlin Byways",
+      "cup": "Moon",
+      "cup_position": 1,
+      "course_position": 69,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "ds_peach_gardens",
+      "name": "DS Peach Gardens",
+      "cup": "Moon",
+      "cup_position": 2,
+      "course_position": 70,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_merry_mountain",
+      "name": "Tour Merry Mountain",
+      "cup": "Moon",
+      "cup_position": 3,
+      "course_position": 71,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "3ds_rainbow_road",
+      "name": "3DS Rainbow Road",
+      "cup": "Moon",
+      "cup_position": 4,
+      "course_position": 72,
+      "dlc": true,
+      "timing_segments": {
+        "type": "sections",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_amsterdam_drift",
+      "name": "Tour Amsterdam Drift",
+      "cup": "Fruit",
+      "cup_position": 1,
+      "course_position": 73,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gba_riverside_park",
+      "name": "GBA Riverside Park",
+      "cup": "Fruit",
+      "cup_position": 2,
+      "course_position": 74,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wii_dk_summit",
+      "name": "Wii DK Summit",
+      "cup": "Fruit",
+      "cup_position": 3,
+      "course_position": 75,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "yoshi_s_island",
+      "name": "Yoshi's Island",
+      "cup": "Fruit",
+      "cup_position": 4,
+      "course_position": 76,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_bangkok_rush",
+      "name": "Tour Bangkok Rush",
+      "cup": "Boomerang",
+      "cup_position": 1,
+      "course_position": 77,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "ds_mario_circuit",
+      "name": "DS Mario Circuit",
+      "cup": "Boomerang",
+      "cup_position": 2,
+      "course_position": 78,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gcn_waluigi_stadium",
+      "name": "GCN Waluigi Stadium",
+      "cup": "Boomerang",
+      "cup_position": 3,
+      "course_position": 79,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_singapore_speedway",
+      "name": "Tour Singapore Speedway",
+      "cup": "Boomerang",
+      "cup_position": 4,
+      "course_position": 80,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_athens_dash",
+      "name": "Tour Athens Dash",
+      "cup": "Feather",
+      "cup_position": 1,
+      "course_position": 81,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gcn_daisy_cruiser",
+      "name": "GCN Daisy Cruiser",
+      "cup": "Feather",
+      "cup_position": 2,
+      "course_position": 82,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wii_moonview_highway",
+      "name": "Wii Moonview Highway",
+      "cup": "Feather",
+      "cup_position": 3,
+      "course_position": 83,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "squeaky_clean_sprint",
+      "name": "Squeaky Clean Sprint",
+      "cup": "Feather",
+      "cup_position": 4,
+      "course_position": 84,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_los_angeles_laps",
+      "name": "Tour Los Angeles Laps",
+      "cup": "Cherry",
+      "cup_position": 1,
+      "course_position": 85,
+      "dlc": true,
+      "timing_segments": {
+        "type": "sections",
+        "count": 3
+      }
+    },
+    {
+      "id": "gba_sunset_wilds",
+      "name": "GBA Sunset Wilds",
+      "cup": "Cherry",
+      "cup_position": 2,
+      "course_position": 86,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wii_koopa_cape",
+      "name": "Wii Koopa Cape",
+      "cup": "Cherry",
+      "cup_position": 3,
+      "course_position": 87,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_vancouver_velocity",
+      "name": "Tour Vancouver Velocity",
+      "cup": "Cherry",
+      "cup_position": 4,
+      "course_position": 88,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_rome_avanti",
+      "name": "Tour Rome Avanti",
+      "cup": "Acorn",
+      "cup_position": 1,
+      "course_position": 89,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "gcn_dk_mountain",
+      "name": "GCN DK Mountain",
+      "cup": "Acorn",
+      "cup_position": 2,
+      "course_position": 90,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wii_daisy_circuit",
+      "name": "Wii Daisy Circuit",
+      "cup": "Acorn",
+      "cup_position": 3,
+      "course_position": 91,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_piranha_plant_cove",
+      "name": "Tour Piranha Plant Cove",
+      "cup": "Acorn",
+      "cup_position": 4,
+      "course_position": 92,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "tour_madrid_drive",
+      "name": "Tour Madrid Drive",
+      "cup": "Spiny",
+      "cup_position": 1,
+      "course_position": 93,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "3ds_rosalina_s_ice_world",
+      "name": "3DS Rosalina's Ice World",
+      "cup": "Spiny",
+      "cup_position": 2,
+      "course_position": 94,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "snes_bowser_castle_3",
+      "name": "SNES Bowser Castle 3",
+      "cup": "Spiny",
+      "cup_position": 3,
+      "course_position": 95,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    },
+    {
+      "id": "wii_rainbow_road",
+      "name": "Wii Rainbow Road",
+      "cup": "Spiny",
+      "cup_position": 4,
+      "course_position": 96,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      }
+    }
+  ]
+}

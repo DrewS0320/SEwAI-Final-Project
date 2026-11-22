@@ -1,0 +1,2910 @@
+{
+  "schema_version": "1.0",
+  "game": "Mario Kart 8 Deluxe",
+  "snapshot_date": "2026-11-21",
+  "notes": [
+    "Snapshot of community world records, not Nintendo first-party record data.",
+    "Totals were checked against each source list aggregate; individual splits are null except verified SNES Rainbow Road records.",
+    "Lap splits are not inferred from race totals: disable per-split comparisons for records with null splits.",
+    "Use matching game version/engine class. MK8DX version 4.0.0 introduced speed changes in September 2026.",
+    "Three-section courses report section splits, not repeated laps. GCN Baby Park has seven laps.",
+    "These records may become outdated; record holders and dates are omitted except verified SNES Rainbow Road examples."
+  ],
+  "record_sources": {
+    "150": "https://www.mkwrs.com/mk8dx/wrs.php?date=2026-11-21",
+    "200": "https://www.mkwrs.com/mk8dx/wrs_200.php?date=2026-11-21",
+    "downloadable_history": "https://mkwrs.com/data/mk8dx_wrs.csv"
+  },
+  "course_count": 96,
+  "record_count": 192,
+  "tracks": [
+    {
+      "id": "mario_kart_stadium",
+      "name": "Mario Kart Stadium",
+      "cup": "Mushroom",
+      "cup_position": 1,
+      "course_position": 1,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 93.628,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Mario%20Kart%20Stadium",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 65.227,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Mario%20Kart%20Stadium",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "water_park",
+      "name": "Water Park",
+      "cup": "Mushroom",
+      "cup_position": 2,
+      "course_position": 2,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 98.132,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Water%20Park",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 70.317,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Water%20Park",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "sweet_sweet_canyon",
+      "name": "Sweet Sweet Canyon",
+      "cup": "Mushroom",
+      "cup_position": 3,
+      "course_position": 3,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 107.688,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Sweet%20Sweet%20Canyon",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 80.406,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Sweet%20Sweet%20Canyon",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "thwomp_ruins",
+      "name": "Thwomp Ruins",
+      "cup": "Mushroom",
+      "cup_position": 4,
+      "course_position": 4,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 106.75,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Thwomp%20Ruins",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 75.42,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Thwomp%20Ruins",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "mario_circuit",
+      "name": "Mario Circuit",
+      "cup": "Flower",
+      "cup_position": 1,
+      "course_position": 5,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 103.13,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Mario%20Circuit",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 72.341,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Mario%20Circuit",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "toad_harbor",
+      "name": "Toad Harbor",
+      "cup": "Flower",
+      "cup_position": 2,
+      "course_position": 6,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 121.429,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Toad%20Harbor",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 85.625,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Toad%20Harbor",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "twisted_mansion",
+      "name": "Twisted Mansion",
+      "cup": "Flower",
+      "cup_position": 3,
+      "course_position": 7,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 112.735,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Twisted%20Mansion",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 81.707,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Twisted%20Mansion",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "shy_guy_falls",
+      "name": "Shy Guy Falls",
+      "cup": "Flower",
+      "cup_position": 4,
+      "course_position": 8,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 114.7,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Shy%20Guy%20Falls",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 85.282,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Shy%20Guy%20Falls",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "sunshine_airport",
+      "name": "Sunshine Airport",
+      "cup": "Star",
+      "cup_position": 1,
+      "course_position": 9,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 116.321,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Sunshine%20Airport",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 87.458,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Sunshine%20Airport",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "dolphin_shoals",
+      "name": "Dolphin Shoals",
+      "cup": "Star",
+      "cup_position": 2,
+      "course_position": 10,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 111.727,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Dolphin%20Shoals",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 81.322,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Dolphin%20Shoals",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "electrodrome",
+      "name": "Electrodrome",
+      "cup": "Star",
+      "cup_position": 3,
+      "course_position": 11,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 114.38,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Electrodrome",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 81.371,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Electrodrome",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "mount_wario",
+      "name": "Mount Wario",
+      "cup": "Star",
+      "cup_position": 4,
+      "course_position": 12,
+      "dlc": false,
+      "timing_segments": {
+        "type": "sections",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 99.841,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Mount%20Wario",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 74.577,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Mount%20Wario",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "cloudtop_cruise",
+      "name": "Cloudtop Cruise",
+      "cup": "Special",
+      "cup_position": 1,
+      "course_position": 13,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 118.645,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Cloudtop%20Cruise",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 88.393,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Cloudtop%20Cruise",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "bone_dry_dunes",
+      "name": "Bone-Dry Dunes",
+      "cup": "Special",
+      "cup_position": 2,
+      "course_position": 14,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 105.631,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Bone-Dry%20Dunes",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 78.913,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Bone-Dry%20Dunes",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "bowser_s_castle",
+      "name": "Bowser's Castle",
+      "cup": "Special",
+      "cup_position": 3,
+      "course_position": 15,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 117.108,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Bowser%27s%20Castle",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 85.213,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Bowser%27s%20Castle",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "rainbow_road",
+      "name": "Rainbow Road",
+      "cup": "Special",
+      "cup_position": 4,
+      "course_position": 16,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 117.892,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Rainbow%20Road",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 91.103,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Rainbow%20Road",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wii_moo_moo_meadows",
+      "name": "Wii Moo Moo Meadows",
+      "cup": "Shell",
+      "cup_position": 1,
+      "course_position": 17,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 82.898,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wii%20Moo%20Moo%20Meadows",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 58.222,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wii%20Moo%20Moo%20Meadows",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gba_mario_circuit",
+      "name": "GBA Mario Circuit",
+      "cup": "Shell",
+      "cup_position": 2,
+      "course_position": 18,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 82.411,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GBA%20Mario%20Circuit",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 59.767,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GBA%20Mario%20Circuit",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "ds_cheep_cheep_beach",
+      "name": "DS Cheep Cheep Beach",
+      "cup": "Shell",
+      "cup_position": 3,
+      "course_position": 19,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 105.397,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=DS%20Cheep%20Cheep%20Beach",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 75.077,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=DS%20Cheep%20Cheep%20Beach",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "n64_toad_s_turnpike",
+      "name": "N64 Toad's Turnpike",
+      "cup": "Shell",
+      "cup_position": 4,
+      "course_position": 20,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 104.457,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=N64%20Toad%27s%20Turnpike",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 71.652,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=N64%20Toad%27s%20Turnpike",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gcn_dry_dry_desert",
+      "name": "GCN Dry Dry Desert",
+      "cup": "Banana",
+      "cup_position": 1,
+      "course_position": 21,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 111.955,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GCN%20Dry%20Dry%20Desert",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 76.702,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GCN%20Dry%20Dry%20Desert",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "snes_donut_plains_3",
+      "name": "SNES Donut Plains 3",
+      "cup": "Banana",
+      "cup_position": 2,
+      "course_position": 22,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 72.203,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=SNES%20Donut%20Plains%203",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 55.241,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=SNES%20Donut%20Plains%203",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "n64_royal_raceway",
+      "name": "N64 Royal Raceway",
+      "cup": "Banana",
+      "cup_position": 3,
+      "course_position": 23,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 114.148,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=N64%20Royal%20Raceway",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 83.009,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=N64%20Royal%20Raceway",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "3ds_dk_jungle",
+      "name": "3DS DK Jungle",
+      "cup": "Banana",
+      "cup_position": 4,
+      "course_position": 24,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 119.819,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=3DS%20DK%20Jungle",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 86.667,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=3DS%20DK%20Jungle",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "ds_wario_stadium",
+      "name": "DS Wario Stadium",
+      "cup": "Leaf",
+      "cup_position": 1,
+      "course_position": 25,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 108.984,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=DS%20Wario%20Stadium",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 80.769,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=DS%20Wario%20Stadium",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gcn_sherbet_land",
+      "name": "GCN Sherbet Land",
+      "cup": "Leaf",
+      "cup_position": 2,
+      "course_position": 26,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 105.652,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GCN%20Sherbet%20Land",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 75.872,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GCN%20Sherbet%20Land",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "3ds_music_park",
+      "name": "3DS Music Park",
+      "cup": "Leaf",
+      "cup_position": 3,
+      "course_position": 27,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 108.961,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=3DS%20Music%20Park",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 82.773,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=3DS%20Music%20Park",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "n64_yoshi_valley",
+      "name": "N64 Yoshi Valley",
+      "cup": "Leaf",
+      "cup_position": 4,
+      "course_position": 28,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 116.872,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=N64%20Yoshi%20Valley",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 83.511,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=N64%20Yoshi%20Valley",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "ds_tick_tock_clock",
+      "name": "DS Tick-Tock Clock",
+      "cup": "Lightning",
+      "cup_position": 1,
+      "course_position": 29,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 100.997,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=DS%20Tick-Tock%20Clock",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 72.328,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=DS%20Tick-Tock%20Clock",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "3ds_piranha_plant_slide",
+      "name": "3DS Piranha Plant Slide",
+      "cup": "Lightning",
+      "cup_position": 2,
+      "course_position": 30,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 117.161,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=3DS%20Piranha%20Plant%20Slide",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 85.47,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=3DS%20Piranha%20Plant%20Slide",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wii_grumble_volcano",
+      "name": "Wii Grumble Volcano",
+      "cup": "Lightning",
+      "cup_position": 3,
+      "course_position": 31,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 111.167,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wii%20Grumble%20Volcano",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 80.529,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wii%20Grumble%20Volcano",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "n64_rainbow_road",
+      "name": "N64 Rainbow Road",
+      "cup": "Lightning",
+      "cup_position": 4,
+      "course_position": 32,
+      "dlc": false,
+      "timing_segments": {
+        "type": "sections",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 78.92,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=N64%20Rainbow%20Road",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 56.019,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=N64%20Rainbow%20Road",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gcn_yoshi_circuit",
+      "name": "GCN Yoshi Circuit",
+      "cup": "Egg",
+      "cup_position": 1,
+      "course_position": 33,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 100.349,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GCN%20Yoshi%20Circuit",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 72.745,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GCN%20Yoshi%20Circuit",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "excitebike_arena",
+      "name": "Excitebike Arena",
+      "cup": "Egg",
+      "cup_position": 2,
+      "course_position": 34,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 97.577,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Excitebike%20Arena",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 73.754,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Excitebike%20Arena",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "dragon_driftway",
+      "name": "Dragon Driftway",
+      "cup": "Egg",
+      "cup_position": 3,
+      "course_position": 35,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 99.22,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Dragon%20Driftway",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 75.769,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Dragon%20Driftway",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "mute_city",
+      "name": "Mute City",
+      "cup": "Egg",
+      "cup_position": 4,
+      "course_position": 36,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 110.26,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Mute%20City",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 80.246,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Mute%20City",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wii_wario_s_gold_mine",
+      "name": "Wii Wario's Gold Mine",
+      "cup": "Triforce",
+      "cup_position": 1,
+      "course_position": 37,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 120.636,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wii%20Wario%27s%20Gold%20Mine",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 84.43,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wii%20Wario%27s%20Gold%20Mine",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "snes_rainbow_road",
+      "name": "SNES Rainbow Road",
+      "cup": "Triforce",
+      "cup_position": 2,
+      "course_position": 38,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 85.117,
+          "lap_splits_seconds": [
+            28.824,
+            27.465,
+            28.828
+          ],
+          "record_holder": "Vincent",
+          "record_date": "2026-09-23",
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=SNES%20Rainbow%20Road",
+          "status": "total_and_splits_verified"
+        },
+        "200": {
+          "total_seconds": 61.494,
+          "lap_splits_seconds": [
+            21.293,
+            20.358,
+            19.843
+          ],
+          "record_holder": "Vincent",
+          "record_date": "2026-09-15",
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=SNES%20Rainbow%20Road",
+          "status": "total_and_splits_verified"
+        }
+      }
+    },
+    {
+      "id": "ice_ice_outpost",
+      "name": "Ice Ice Outpost",
+      "cup": "Triforce",
+      "cup_position": 3,
+      "course_position": 39,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 103.711,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Ice%20Ice%20Outpost",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 76.384,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Ice%20Ice%20Outpost",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "hyrule_circuit",
+      "name": "Hyrule Circuit",
+      "cup": "Triforce",
+      "cup_position": 4,
+      "course_position": 40,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 105.967,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Hyrule%20Circuit",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 79.454,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Hyrule%20Circuit",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gcn_baby_park",
+      "name": "GCN Baby Park",
+      "cup": "Crossing",
+      "cup_position": 1,
+      "course_position": 41,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 7
+      },
+      "records": {
+        "150": {
+          "total_seconds": 61.511,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GCN%20Baby%20Park",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 44.523,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GCN%20Baby%20Park",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gba_cheese_land",
+      "name": "GBA Cheese Land",
+      "cup": "Crossing",
+      "cup_position": 2,
+      "course_position": 42,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 101.359,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GBA%20Cheese%20Land",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 74.367,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GBA%20Cheese%20Land",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wild_woods",
+      "name": "Wild Woods",
+      "cup": "Crossing",
+      "cup_position": 3,
+      "course_position": 43,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 104.652,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wild%20Woods",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 75.885,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wild%20Woods",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "animal_crossing",
+      "name": "Animal Crossing",
+      "cup": "Crossing",
+      "cup_position": 4,
+      "course_position": 44,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 95.213,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Animal%20Crossing",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 69.903,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Animal%20Crossing",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "3ds_neo_bowser_city",
+      "name": "3DS Neo Bowser City",
+      "cup": "Bell",
+      "cup_position": 1,
+      "course_position": 45,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 101.96,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=3DS%20Neo%20Bowser%20City",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 78.562,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=3DS%20Neo%20Bowser%20City",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gba_ribbon_road",
+      "name": "GBA Ribbon Road",
+      "cup": "Bell",
+      "cup_position": 2,
+      "course_position": 46,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 103.096,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GBA%20Ribbon%20Road",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 76.566,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GBA%20Ribbon%20Road",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "super_bell_subway",
+      "name": "Super Bell Subway",
+      "cup": "Bell",
+      "cup_position": 3,
+      "course_position": 47,
+      "dlc": false,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 98.894,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Super%20Bell%20Subway",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 72.275,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Super%20Bell%20Subway",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "big_blue",
+      "name": "Big Blue",
+      "cup": "Bell",
+      "cup_position": 4,
+      "course_position": 48,
+      "dlc": false,
+      "timing_segments": {
+        "type": "sections",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 82.659,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Big%20Blue",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 60.001,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Big%20Blue",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_paris_promenade",
+      "name": "Tour Paris Promenade",
+      "cup": "Golden Dash",
+      "cup_position": 1,
+      "course_position": 49,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 108.571,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Paris%20Promenade",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 75.978,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Paris%20Promenade",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "3ds_toad_circuit",
+      "name": "3DS Toad Circuit",
+      "cup": "Golden Dash",
+      "cup_position": 2,
+      "course_position": 50,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 79.639,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=3DS%20Toad%20Circuit",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 55.763,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=3DS%20Toad%20Circuit",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "n64_choco_mountain",
+      "name": "N64 Choco Mountain",
+      "cup": "Golden Dash",
+      "cup_position": 3,
+      "course_position": 51,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 110.054,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=N64%20Choco%20Mountain",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 79.071,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=N64%20Choco%20Mountain",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wii_coconut_mall",
+      "name": "Wii Coconut Mall",
+      "cup": "Golden Dash",
+      "cup_position": 4,
+      "course_position": 52,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 99.961,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wii%20Coconut%20Mall",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 73.172,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wii%20Coconut%20Mall",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_tokyo_blur",
+      "name": "Tour Tokyo Blur",
+      "cup": "Lucky Cat",
+      "cup_position": 1,
+      "course_position": 53,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 84.378,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Tokyo%20Blur",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 58.541,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Tokyo%20Blur",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "ds_shroom_ridge",
+      "name": "DS Shroom Ridge",
+      "cup": "Lucky Cat",
+      "cup_position": 2,
+      "course_position": 54,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 103.416,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=DS%20Shroom%20Ridge",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 74.686,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=DS%20Shroom%20Ridge",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gba_sky_garden",
+      "name": "GBA Sky Garden",
+      "cup": "Lucky Cat",
+      "cup_position": 3,
+      "course_position": 55,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 85.045,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GBA%20Sky%20Garden",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 61.226,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GBA%20Sky%20Garden",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_ninja_hideaway",
+      "name": "Tour Ninja Hideaway",
+      "cup": "Lucky Cat",
+      "cup_position": 4,
+      "course_position": 56,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 110.967,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Ninja%20Hideaway",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 83.827,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Ninja%20Hideaway",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_new_york_minute",
+      "name": "Tour New York Minute",
+      "cup": "Turnip",
+      "cup_position": 1,
+      "course_position": 57,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 81.472,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20New%20York%20Minute",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 57.827,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20New%20York%20Minute",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "snes_mario_circuit_3",
+      "name": "SNES Mario Circuit 3",
+      "cup": "Turnip",
+      "cup_position": 2,
+      "course_position": 58,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 89.791,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=SNES%20Mario%20Circuit%203",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 63.789,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=SNES%20Mario%20Circuit%203",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "n64_kalimari_desert",
+      "name": "N64 Kalimari Desert",
+      "cup": "Turnip",
+      "cup_position": 3,
+      "course_position": 59,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 86.891,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=N64%20Kalimari%20Desert",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 60.689,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=N64%20Kalimari%20Desert",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "ds_waluigi_pinball",
+      "name": "DS Waluigi Pinball",
+      "cup": "Turnip",
+      "cup_position": 4,
+      "course_position": 60,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 137.627,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=DS%20Waluigi%20Pinball",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 104.856,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=DS%20Waluigi%20Pinball",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_sydney_sprint",
+      "name": "Tour Sydney Sprint",
+      "cup": "Propeller",
+      "cup_position": 1,
+      "course_position": 61,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 118.476,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Sydney%20Sprint",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 83.735,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Sydney%20Sprint",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gba_snow_land",
+      "name": "GBA Snow Land",
+      "cup": "Propeller",
+      "cup_position": 2,
+      "course_position": 62,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 85.344,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GBA%20Snow%20Land",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 63.729,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GBA%20Snow%20Land",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wii_mushroom_gorge",
+      "name": "Wii Mushroom Gorge",
+      "cup": "Propeller",
+      "cup_position": 3,
+      "course_position": 63,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 86.529,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wii%20Mushroom%20Gorge",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 60.995,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wii%20Mushroom%20Gorge",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "sky_high_sundae",
+      "name": "Sky-High Sundae",
+      "cup": "Propeller",
+      "cup_position": 4,
+      "course_position": 64,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 112.429,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Sky-High%20Sundae",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 78.975,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Sky-High%20Sundae",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_london_loop",
+      "name": "Tour London Loop",
+      "cup": "Rock",
+      "cup_position": 1,
+      "course_position": 65,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 125.617,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20London%20Loop",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 87.817,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20London%20Loop",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gba_boo_lake",
+      "name": "GBA Boo Lake",
+      "cup": "Rock",
+      "cup_position": 2,
+      "course_position": 66,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 79.536,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GBA%20Boo%20Lake",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 58.741,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GBA%20Boo%20Lake",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "3ds_rock_rock_mountain",
+      "name": "3DS Rock Rock Mountain",
+      "cup": "Rock",
+      "cup_position": 3,
+      "course_position": 67,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 126.672,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=3DS%20Rock%20Rock%20Mountain",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 86.772,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=3DS%20Rock%20Rock%20Mountain",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wii_maple_treeway",
+      "name": "Wii Maple Treeway",
+      "cup": "Rock",
+      "cup_position": 4,
+      "course_position": 68,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 141.609,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wii%20Maple%20Treeway",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 108.107,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wii%20Maple%20Treeway",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_berlin_byways",
+      "name": "Tour Berlin Byways",
+      "cup": "Moon",
+      "cup_position": 1,
+      "course_position": 69,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 114.616,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Berlin%20Byways",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 81.261,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Berlin%20Byways",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "ds_peach_gardens",
+      "name": "DS Peach Gardens",
+      "cup": "Moon",
+      "cup_position": 2,
+      "course_position": 70,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 121.307,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=DS%20Peach%20Gardens",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 85.407,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=DS%20Peach%20Gardens",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_merry_mountain",
+      "name": "Tour Merry Mountain",
+      "cup": "Moon",
+      "cup_position": 3,
+      "course_position": 71,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 108.621,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Merry%20Mountain",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 77.794,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Merry%20Mountain",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "3ds_rainbow_road",
+      "name": "3DS Rainbow Road",
+      "cup": "Moon",
+      "cup_position": 4,
+      "course_position": 72,
+      "dlc": true,
+      "timing_segments": {
+        "type": "sections",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 96.064,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=3DS%20Rainbow%20Road",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 68.972,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=3DS%20Rainbow%20Road",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_amsterdam_drift",
+      "name": "Tour Amsterdam Drift",
+      "cup": "Fruit",
+      "cup_position": 1,
+      "course_position": 73,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 94.102,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Amsterdam%20Drift",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 66.308,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Amsterdam%20Drift",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gba_riverside_park",
+      "name": "GBA Riverside Park",
+      "cup": "Fruit",
+      "cup_position": 2,
+      "course_position": 74,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 84.5,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GBA%20Riverside%20Park",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 61.706,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GBA%20Riverside%20Park",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wii_dk_summit",
+      "name": "Wii DK Summit",
+      "cup": "Fruit",
+      "cup_position": 3,
+      "course_position": 75,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 113.444,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wii%20DK%20Summit",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 90.647,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wii%20DK%20Summit",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "yoshi_s_island",
+      "name": "Yoshi's Island",
+      "cup": "Fruit",
+      "cup_position": 4,
+      "course_position": 76,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 116.009,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Yoshi%27s%20Island",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 85.188,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Yoshi%27s%20Island",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_bangkok_rush",
+      "name": "Tour Bangkok Rush",
+      "cup": "Boomerang",
+      "cup_position": 1,
+      "course_position": 77,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 101.063,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Bangkok%20Rush",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 72.383,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Bangkok%20Rush",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "ds_mario_circuit",
+      "name": "DS Mario Circuit",
+      "cup": "Boomerang",
+      "cup_position": 2,
+      "course_position": 78,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 95.939,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=DS%20Mario%20Circuit",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 70.349,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=DS%20Mario%20Circuit",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gcn_waluigi_stadium",
+      "name": "GCN Waluigi Stadium",
+      "cup": "Boomerang",
+      "cup_position": 3,
+      "course_position": 79,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 112.482,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GCN%20Waluigi%20Stadium",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 84.598,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GCN%20Waluigi%20Stadium",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_singapore_speedway",
+      "name": "Tour Singapore Speedway",
+      "cup": "Boomerang",
+      "cup_position": 4,
+      "course_position": 80,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 114.733,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Singapore%20Speedway",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 79.857,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Singapore%20Speedway",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_athens_dash",
+      "name": "Tour Athens Dash",
+      "cup": "Feather",
+      "cup_position": 1,
+      "course_position": 81,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 96.036,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Athens%20Dash",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 70.086,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Athens%20Dash",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gcn_daisy_cruiser",
+      "name": "GCN Daisy Cruiser",
+      "cup": "Feather",
+      "cup_position": 2,
+      "course_position": 82,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 93.211,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GCN%20Daisy%20Cruiser",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 68.148,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GCN%20Daisy%20Cruiser",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wii_moonview_highway",
+      "name": "Wii Moonview Highway",
+      "cup": "Feather",
+      "cup_position": 3,
+      "course_position": 83,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 101.367,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wii%20Moonview%20Highway",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 71.266,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wii%20Moonview%20Highway",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "squeaky_clean_sprint",
+      "name": "Squeaky Clean Sprint",
+      "cup": "Feather",
+      "cup_position": 4,
+      "course_position": 84,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 118.956,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Squeaky%20Clean%20Sprint",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 84.745,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Squeaky%20Clean%20Sprint",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_los_angeles_laps",
+      "name": "Tour Los Angeles Laps",
+      "cup": "Cherry",
+      "cup_position": 1,
+      "course_position": 85,
+      "dlc": true,
+      "timing_segments": {
+        "type": "sections",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 104.773,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Los%20Angeles%20Laps",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 73.567,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Los%20Angeles%20Laps",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gba_sunset_wilds",
+      "name": "GBA Sunset Wilds",
+      "cup": "Cherry",
+      "cup_position": 2,
+      "course_position": 86,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 91.5,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GBA%20Sunset%20Wilds",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 66.678,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GBA%20Sunset%20Wilds",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wii_koopa_cape",
+      "name": "Wii Koopa Cape",
+      "cup": "Cherry",
+      "cup_position": 3,
+      "course_position": 87,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 115.541,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wii%20Koopa%20Cape",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 83.976,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wii%20Koopa%20Cape",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_vancouver_velocity",
+      "name": "Tour Vancouver Velocity",
+      "cup": "Cherry",
+      "cup_position": 4,
+      "course_position": 88,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 117.897,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Vancouver%20Velocity",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 83.202,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Vancouver%20Velocity",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_rome_avanti",
+      "name": "Tour Rome Avanti",
+      "cup": "Acorn",
+      "cup_position": 1,
+      "course_position": 89,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 102.53,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Rome%20Avanti",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 73.407,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Rome%20Avanti",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "gcn_dk_mountain",
+      "name": "GCN DK Mountain",
+      "cup": "Acorn",
+      "cup_position": 2,
+      "course_position": 90,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 127.895,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=GCN%20DK%20Mountain",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 103.257,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=GCN%20DK%20Mountain",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wii_daisy_circuit",
+      "name": "Wii Daisy Circuit",
+      "cup": "Acorn",
+      "cup_position": 3,
+      "course_position": 91,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 106.941,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wii%20Daisy%20Circuit",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 75.692,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wii%20Daisy%20Circuit",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_piranha_plant_cove",
+      "name": "Tour Piranha Plant Cove",
+      "cup": "Acorn",
+      "cup_position": 4,
+      "course_position": 92,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 116.637,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Piranha%20Plant%20Cove",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 83.616,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Piranha%20Plant%20Cove",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "tour_madrid_drive",
+      "name": "Tour Madrid Drive",
+      "cup": "Spiny",
+      "cup_position": 1,
+      "course_position": 93,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 115.675,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Tour%20Madrid%20Drive",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 81.704,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Tour%20Madrid%20Drive",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "3ds_rosalina_s_ice_world",
+      "name": "3DS Rosalina's Ice World",
+      "cup": "Spiny",
+      "cup_position": 2,
+      "course_position": 94,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 115.531,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=3DS%20Rosalina%27s%20Ice%20World",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 84.898,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=3DS%20Rosalina%27s%20Ice%20World",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "snes_bowser_castle_3",
+      "name": "SNES Bowser Castle 3",
+      "cup": "Spiny",
+      "cup_position": 3,
+      "course_position": 95,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 99.368,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=SNES%20Bowser%20Castle%203",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 72.784,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=SNES%20Bowser%20Castle%203",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    },
+    {
+      "id": "wii_rainbow_road",
+      "name": "Wii Rainbow Road",
+      "cup": "Spiny",
+      "cup_position": 4,
+      "course_position": 96,
+      "dlc": true,
+      "timing_segments": {
+        "type": "laps",
+        "count": 3
+      },
+      "records": {
+        "150": {
+          "total_seconds": 150.421,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=150&track=Wii%20Rainbow%20Road",
+          "status": "total_verified_splits_unverified"
+        },
+        "200": {
+          "total_seconds": 110.169,
+          "lap_splits_seconds": null,
+          "record_holder": null,
+          "record_date": null,
+          "source_url": "https://www.mkwrs.com/mk8dx/display.php?m=200&track=Wii%20Rainbow%20Road",
+          "status": "total_verified_splits_unverified"
+        }
+      }
+    }
+  ]
+}
