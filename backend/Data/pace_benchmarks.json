@@ -1,0 +1,22 @@
+
+{
+  "schema_version": "1.0",
+  "model": "project_defined_world_record_relative_bands",
+  "is_empirical_player_distribution": false,
+  "description": "Provisional performance bands and score anchors. These are not measured player percentiles.",
+  "bands": [
+    { "name": "Elite Pace", "max_ratio": 1.10 },
+    { "name": "Advanced Pace", "max_ratio": 1.20 },
+    { "name": "Intermediate Pace", "max_ratio": 1.35 },
+    { "name": "Developing Pace", "max_ratio": 1.60 },
+    { "name": "Entry-Level Pace", "max_ratio": null }
+  ],
+  "score_anchors": [
+    { "ratio": 1.00, "score": 100 },
+    { "ratio": 1.10, "score": 90 },
+    { "ratio": 1.20, "score": 80 },
+    { "ratio": 1.35, "score": 65 },
+    { "ratio": 1.60, "score": 40 },
+    { "ratio": 2.00, "score": 0 }
+  ]
+}
