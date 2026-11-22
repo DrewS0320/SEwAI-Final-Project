@@ -28,6 +28,7 @@ import numpy as np
 
 from coin_temporal_v3 import decode as decode_coins_v3
 from hud_templates import classify as recognize_hud
+from analysis_enhancements import enhance_analysis
 
 
 ROI_NAMES = ("coins", "lap", "timer")
@@ -1597,6 +1598,8 @@ def main() -> None:
         encoding="utf-8",
     )
 
+    summary = enhance_analysis(args.out)
+
     print(json.dumps({
         "samples": len(samples),
         "lap_times_seconds_approx": summary[
@@ -1621,7 +1624,6 @@ def main() -> None:
         ),
         "output_folder": str(args.out),
     }, indent=2))
-
 
 if __name__ == "__main__":
     main()
