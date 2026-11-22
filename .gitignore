@@ -1,1 +1,25 @@
 
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# PyCharm and VS Code
+.idea/
+.vscode/
+
+# Gameplay recordings
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Generated analysis outputs
+results*/
+debug/
+
+# Temporary files
+*.log
