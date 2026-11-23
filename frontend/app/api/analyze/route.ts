@@ -200,13 +200,34 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     const problem = error as Error & { stderr?: string; stdout?: string }
     // Show just the last useful error lines, not a stack trace or local paths.
-    const details = (problem.stderr || problem.message || 'Analysis failed').trim()
-    console.error('Mario Kart video analysis failed', { runId: id, error: details })
-    const safeMessage = details.includes('Couldn\'t detect')
-      ? 'Could not detect the GO or FINISH banner. This tool currently expects the calibrated SNES Rainbow Road capture layout.'
-      : details.includes('ENOENT')
-      ? 'Python, .NET, or a required analyzer file could not be found. Check the local setup.'
-      : 'Video analysis failed. Check the Next.js terminal for details.'
-    return NextResponse.json({ error: safeMessage, runId: id }, { status: 500 })
+    // Keep detailed diagnostics in the local server log, but return actionable,
+    // non-sensitive messages for known user-input failures.
+    const diagnostic = [problem.stderr, problem.stdout, problem.message]
+      .filter((part): part is string => typeof part === 'string' && part.length > 0)
+      .join('\n')
+    const cleanDiagnostic = diagnostic.replace(/\x1B\[[0-9;]*m/g, '')
+    console.error('Mario Kart video analysis failed', {
+      runId: id,
+      error: cleanDiagnostic.slice(0, 5000),
+    })
+
+    let status = 500
+    let safeMessage = 'Video analysis failed unexpectedly. Please try again or consult the local server log.'
+
+    if (/Cannot open video:|moov atom not found|Invalid video FPS|Invalid data found when processing input|Could not find codec parameters/i.test(cleanDiagnostic)) {
+      status = 422
+      safeMessage = 'Unable to read the video. The file may be damaged, incomplete, or use an unsupported codec. Try uploading a playable video recording.'
+    } else if (/Couldn't detect (GO!|FINISH!)/i.test(cleanDiagnostic)) {
+      status = 422
+      safeMessage = 'Could not detect the GO or FINISH banner. Upload a complete SNES Rainbow Road 150cc Time Trial recording with both banners visible.'
+    } else if (/ENOENT|ModuleNotFoundError|No such file or directory/i.test(cleanDiagnostic)) {
+      status = 503
+      safeMessage = 'A required local analyzer dependency could not be found. Check the Python environment and analysis files.'
+    } else if (/ETIMEDOUT|timed out|timeout/i.test(cleanDiagnostic)) {
+      status = 504
+      safeMessage = 'Video processing timed out. Try a shorter recording or check the local server log.'
+    }
+
+    return NextResponse.json({ error: safeMessage, runId: id }, { status })
   }
 }
