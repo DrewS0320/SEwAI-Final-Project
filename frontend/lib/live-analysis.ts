@@ -21,7 +21,7 @@ export type LiveAnalysis = {
  averageCoins: number
  coinCoverage: number
  fractionRaceAtTen: number
- firstTenSeconds: number
+ firstTenSeconds: number | null
  longestTenSeconds: number
  belowFiveSeconds: number
  strongLossCandidates: number
@@ -51,7 +51,7 @@ export function isDashboardReady(payload: unknown): payload is LiveAnalysis {
   && Array.isArray(x.lapTimesSeconds) && x.lapTimesSeconds.length === 3 && x.lapTimesSeconds.every(positive)
   && finite(x.averageCoins) && x.averageCoins >= 0 && x.averageCoins <= 10
   && fraction(x.coinCoverage) && fraction(x.fractionRaceAtTen)
-  && nonnegative(x.firstTenSeconds) && nonnegative(x.longestTenSeconds) && nonnegative(x.belowFiveSeconds)
+  && (x.firstTenSeconds === null || nonnegative(x.firstTenSeconds)) && nonnegative(x.longestTenSeconds) && nonnegative(x.belowFiveSeconds)
   && whole(x.strongLossCandidates) && whole(x.possibleCappedLosses) && whole(x.ambiguousDecreases)
   && (x.lapPerformanceScore === null || (finite(x.lapPerformanceScore) && x.lapPerformanceScore >= 0 && x.lapPerformanceScore <= 100))
   && (x.coinManagementScore === null || (finite(x.coinManagementScore) && x.coinManagementScore >= 0 && x.coinManagementScore <= 100))
