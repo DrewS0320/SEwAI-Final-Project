@@ -79,3 +79,10 @@
 @media (max-width: 1050px) { .layout { grid-template-columns: minmax(0,1fr); } .infoColumn { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 670px) { .headerRight { font-size: 9px; } .backLink { margin-top: 4px; } .layout { margin-top: 8px; } .infoColumn { grid-template-columns: 1fr; } .form { padding: 20px 17px 24px; } .panelTop { padding: 22px 17px; } .panelTop h3 { font-size: 17px; } .stepNumber { display: none; } .optional { display: none; } .footer { flex-wrap: wrap; } }
 @media (prefers-reduced-motion: reduce) { .spinner { animation: none; } .submit { transition: none; } }
+
+/* Optional gameplay clip. If unavailable, the player explains where to add it. */
+.previewCard { overflow: hidden; border: 1px solid #34516a; border-radius: 17px; background: linear-gradient(150deg,#17223a,#0b1625); }
+.previewHeader { padding: 18px 19px 13px; display: grid; gap: 5px; }
+.previewHeader strong { font-size: 14px; color: #f4f8ff; }
+.previewCard > :global(.race-video) { margin: 0 12px; }
+.previewCard > p { color: #98aec7; font-size: 11px; line-height: 1.6; margin: 11px 19px 17px; }

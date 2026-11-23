@@ -26,3 +26,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 *.bak
+
+# Local demonstration footage (keep large videos out of Git history)
+/public/videos/*.mp4
+/public/videos/*.mov
+/public/videos/*.mkv
+/public/videos/*.avi
