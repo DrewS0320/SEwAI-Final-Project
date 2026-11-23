@@ -9,36 +9,11 @@ import {
   LoaderCircle, MoreHorizontal, ShieldCheck, Upload, Video, XCircle,
 } from 'lucide-react'
 import styles from './upload.module.css'
+import SiteSidebar from '@/components/SiteSidebar'
+import RaceVideo from '@/components/RaceVideo'
 
 const MAX_VIDEO_BYTES = 250 * 1024 * 1024
 const ALLOWED_EXTENSIONS = /\.(mp4|mov|mkv|avi)$/i
-
-function Sidebar() {
-  return (
-    <aside className="sidebar">
-      <Link href="/" className="brand">
-        <span className="brand-mark"><Gauge size={19}/></span>
-        <span>KART<span className="brand-accent">SCOPE</span><small>TIME TRIAL ANALYTICS</small></span>
-      </Link>
-      <div className="nav-label">WORKSPACE</div>
-      <nav className="side-nav">
-        <Link href="/"><LayoutDashboard size={17}/> Race analysis</Link>
-        <Link href="/dashboard"><BarChart3 size={17}/> Demo races<span className="nav-count">02</span></Link>
-        <Link className="selected" href="/upload"><Upload size={17}/> Analyze video</Link>
-      </nav>
-      <div className="sidebar-bottom">
-        <div className="track-mini">
-          <div className="track-line"/>
-          <span className="track-caption">CURRENT TRACK</span>
-          <strong>SNES Rainbow Road</strong>
-          <small>150cc · Time Trial</small>
-        </div>
-        <Link href="/scoring" className="help-link"><CircleHelp size={16}/> How scoring works</Link>
-        <div className="user-chip"><div className="avatar">MK</div><span><b>Demo workspace</b><small>Capstone preview</small></span><MoreHorizontal size={17}/></div>
-      </div>
-    </aside>
-  )
-}
 
 function formatBytes(bytes: number): string {
   return `${(bytes / (1024 * 1024)).toFixed(1)} MB`
@@ -87,7 +62,7 @@ export default function UploadRace() {
       if (!response.ok || typeof payload.id !== 'string') {
         throw new Error(payload.error || 'Analysis failed.')
       }
-      router.push(`/?analysis=${encodeURIComponent(payload.id)}`)
+      router.push(`/analysis?analysis=${encodeURIComponent(payload.id)}`)
     } catch (problem) {
       setError(problem instanceof Error ? problem.message : 'Analysis failed.')
     } finally {
@@ -97,7 +72,7 @@ export default function UploadRace() {
 
   return (
     <div className="app-shell">
-      <Sidebar/>
+      <SiteSidebar active="upload"/>
       <main className="main-content">
         <header className="topbar">
           <div className="crumb"><span>ANALYSIS</span><span className="crumb-slash">/</span><b>Analyze video</b></div>
@@ -111,7 +86,7 @@ export default function UploadRace() {
               <h2>Analyze a race</h2>
               <p>Turn your Time Trial recording into actionable racing insights.</p>
             </div>
-            <Link href="/" className={styles.backLink}><ArrowLeft size={16}/> Back to dashboard</Link>
+            <Link href="/analysis" className={styles.backLink}><ArrowLeft size={16}/> Back to analysis</Link>
           </div>
 
           <div className={styles.layout}>
@@ -123,7 +98,6 @@ export default function UploadRace() {
                   <h3 id="upload-heading">Upload your gameplay</h3>
                   <p>SNES Rainbow Road <span className={styles.dotSeparator}>·</span> 150cc <span className={styles.dotSeparator}>·</span> Time Trial</p>
                 </div>
-                <span className={styles.stepNumber}>01 / 02</span>
               </div>
 
               <form onSubmit={analyze} className={styles.form}>
@@ -194,6 +168,11 @@ export default function UploadRace() {
             </section>
 
             <aside className={styles.infoColumn} aria-label="Analysis information">
+              <section className={styles.previewCard}>
+                <div className={styles.previewHeader}><span className={styles.kicker}>TRACK PREVIEW</span><strong>SNES Rainbow Road · 150cc</strong></div>
+                <RaceVideo src="/videos/rainbow-preview.mp4" title="Looping Rainbow Road race preview" preview />
+                <p>A glimpse of the track KartScope is calibrated to analyze.</p>
+              </section>
               <section className={styles.infoCard}>
                 <span className={styles.kicker}>HOW IT WORKS</span>
                 <h3>From video to insight</h3>

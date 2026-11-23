@@ -28,6 +28,7 @@ import numpy as np
 
 from coin_temporal_v3 import decode as decode_coins_v3
 from hud_templates import classify as recognize_hud
+from lap_digit_fallback import classify_lap_digit
 from analysis_enhancements import enhance_analysis
 
 
@@ -469,6 +470,18 @@ def sample_video(
                     "lap",
                 )
 
+                # A crop calibrated around narrow '1' can cut off wider
+                # '2' and '3' digits. Prefer an independently confirmed
+                # full-numeral match when available, otherwise preserve
+                # the original classifier's reading.
+                full_digit_lap = classify_lap_digit(frame)
+                if full_digit_lap is not None and lap != full_digit_lap:
+                    lap_note = (
+                        f"layout_verified_{full_digit_lap}; "
+                        f"original={lap}; {lap_note}"
+                    )
+                    lap = full_digit_lap
+
                 timer, timer_note = (
                     read_timer_experimental(
                         crop_roi(frame, rois["timer"])
@@ -563,43 +576,38 @@ def lap_transitions(samples: list[Sample]) -> list[dict]:
             if laps[i] != new_lap:
                 continue
 
-            before = laps[max(previous_index, i - 8):i]
-            after = laps[i:i + 12]
+            # The lap-change animation can obscure the HUD for several
+            # frames. Use time windows rather than eight immediate samples;
+            # still require repeated evidence on *both* sides of the change.
+            before_start = i
+            while (before_start > previous_index and
+                   times[i] - times[before_start - 1] <= 4.0):
+                before_start -= 1
 
-            if (
-                before.count(old_lap) < 5
-                or after.count(new_lap) < 7
-            ):
+            after_end = i
+            while (after_end < len(samples) and
+                   times[after_end] - times[i] <= 3.0):
+                after_end += 1
+
+            if (laps[before_start:i].count(old_lap) < 5 or
+                    laps[i:after_end].count(new_lap) < 7):
                 continue
 
             previous = next(
-                (
-                    j for j in range(
-                        i - 1,
-                        previous_index - 1,
-                        -1,
-                    )
-                    if laps[j] == old_lap
-                ),
+                (j for j in range(i - 1, before_start - 1, -1)
+                 if laps[j] == old_lap),
                 None,
             )
-
-            if previous is None:
+            # Do not infer a transition across a long unexplained gap.
+            if previous is None or times[i] - times[previous] > 2.0:
                 continue
 
             midpoint = (times[previous] + times[i]) / 2
-
             found = {
                 "new_lap": new_lap,
-                "last_previous_lap_frame": round(
-                    times[previous], 3
-                ),
-                "first_new_lap_frame": round(
-                    times[i], 3
-                ),
-                "boundary_video_seconds_estimate": round(
-                    midpoint, 3
-                ),
+                "last_previous_lap_frame": round(times[previous], 3),
+                "first_new_lap_frame": round(times[i], 3),
+                "boundary_video_seconds_estimate": round(midpoint, 3),
                 "sampling_uncertainty_seconds": round(
                     (times[i] - times[previous]) / 2, 3
                 ),

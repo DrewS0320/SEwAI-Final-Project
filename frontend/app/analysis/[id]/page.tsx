@@ -66,7 +66,7 @@ export default function AnalysisResults() {
   const cell = { padding: '12px 14px', borderBottom: '1px solid #64748b44' }
   return (
     <main style={{ maxWidth: 980, padding: '24px', margin: '28px auto' }}>
-      <nav style={{ display: 'flex', gap: 24 }}><Link href="/">Dashboard</Link><Link href={"/?analysis=" + encodeURIComponent(id)}>View styled dashboard</Link><Link href="/upload">Analyze another video</Link></nav>
+      <nav style={{ display: 'flex', gap: 24 }}><Link href="/analysis">Dashboard</Link><Link href={"/analysis?analysis=" + encodeURIComponent(id)}>View styled dashboard</Link><Link href="/upload">Analyze another video</Link></nav>
       <h1>Video analysis results</h1>
       {error && <p role="alert" style={{ color: '#fb7185' }}>{error}</p>}
       {!result && !error && <p role="status">Loading saved analysis…</p>}
