@@ -7,7 +7,7 @@ export type DemoRace = {
   laps: number[]
   averageCoins: number
   maxCoinPercent: number
-  firstTenSeconds: number
+  firstTenSeconds: number | null
   longestTenSeconds: number
   belowFiveSeconds: number
   coverage: number
@@ -45,7 +45,8 @@ export const formatTime = (seconds: number) => {
 export function getRecommendations(race: DemoRace) {
   const tips: { title: string; text: string; color: string }[] = []
   if (race.averageCoins < 6) tips.push({ title: 'Build your coin economy', text: 'Your average is below 6 coins. Prioritize early pickups and avoid giving away coins where possible.', color: 'orange' })
-  if (race.firstTenSeconds > 45) tips.push({ title: 'Reach 10 coins sooner', text: `It took ${race.firstTenSeconds.toFixed(1)}s to first observe 10 coins. Early collection helps maximize top-speed time.`, color: 'blue' })
+  if (race.firstTenSeconds === null) tips.push({ title: 'Reach 10 coins', text: 'A 10-coin reading was not observed in readable frames. Collect coins earlier and protect them to build speed.', color: 'blue' })
+  else if (race.firstTenSeconds > 45) tips.push({ title: 'Reach 10 coins sooner', text: `It took ${race.firstTenSeconds.toFixed(1)}s to first observe 10 coins. Early collection helps maximize top-speed time.`, color: 'blue' })
   if (race.laps[2] - race.laps[0] > 2) tips.push({ title: 'Stabilize lap pace', text: 'Your lap times trend slower. Work toward repeating your best pace across all three laps.', color: 'purple' })
   else if (Math.max(...race.laps) - Math.min(...race.laps) > 2.5) tips.push({ title: 'Tighten lap consistency', text: `Your fastest-to-slowest lap spread is ${(Math.max(...race.laps) - Math.min(...race.laps)).toFixed(3)}s. Aim to bring each lap closer to your best split.`, color: 'purple' })
   if (race.maxCoinPercent < 75) tips.push({ title: 'Extend time at 10 coins', text: `${race.maxCoinPercent}% of the full race duration was at the 10-coin cap. Earlier collection could increase time spent at maximum coins.`, color: 'orange' })
