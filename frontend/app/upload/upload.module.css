@@ -84,5 +84,9 @@
 .previewCard { overflow: hidden; border: 1px solid #34516a; border-radius: 17px; background: linear-gradient(150deg,#17223a,#0b1625); }
 .previewHeader { padding: 18px 19px 13px; display: grid; gap: 5px; }
 .previewHeader strong { font-size: 14px; color: #f4f8ff; }
-.previewCard > :global(.race-video) { margin: 0 12px; }
+.previewCard > :global(.race-video) {
+  width: calc(100% - 24px);
+  margin: 0 12px;
+  box-sizing: border-box;
+}
 .previewCard > p { color: #98aec7; font-size: 11px; line-height: 1.6; margin: 11px 19px 17px; }
