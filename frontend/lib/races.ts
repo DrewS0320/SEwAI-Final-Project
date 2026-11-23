@@ -24,12 +24,14 @@ export const races: Record<DemoRace['id'], DemoRace> = {
     laps: [35.4, 32.019, 32.317], averageCoins: 8.143, maxCoinPercent: 67.2,
     firstTenSeconds: 31.82, longestTenSeconds: 52.7, belowFiveSeconds: 13.42,
     coverage: 97.41, strongLosses: 0, cappedLosses: 0, ambiguousLosses: 0,
+    lapScore: 86.6, coinScore: 81.4,
   },
   bad: {
     id: 'bad', filename: 'bad_race.mp4', score: 42, pace: 'Entry-Level', totalSeconds: 139.142,
     laps: [45.054, 46.349, 47.739], averageCoins: 3.372, maxCoinPercent: 4.3,
     firstTenSeconds: 75.19, longestTenSeconds: 5.97, belowFiveSeconds: 82.25,
     coverage: 88.13, strongLosses: 3, cappedLosses: 1, ambiguousLosses: 2,
+    lapScore: 51.1, coinScore: 23.7,
   },
 }
 
